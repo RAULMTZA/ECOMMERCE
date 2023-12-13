@@ -29,7 +29,7 @@ CREATE TABLE vendedor(
     app_vendedor VARCHAR(50),
     apm_vendedor VARCHAR(50),
     correo_electronico VARCHAR(100),
-    contraseña VARCHAR(50),
+    contrasena VARCHAR(50),
     telefono VARCHAR(10),
     fecha_creacion  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     id_estatus INT - foranea,
@@ -68,7 +68,7 @@ nombre_cliente varchar(50)
 app_cliente varchar(50)
 apm_cliente varchar(50)
 correo_electronico varchar(100)
-contraseña varchar(50)
+contrasena varchar(50)
 telefono varchar(10)
 fecha_creacion timestamp
 id_estatus INT,
